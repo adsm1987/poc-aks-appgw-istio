@@ -16,7 +16,6 @@ module "aks" {
   network_policy          = var.network_policy
   node_pools              = var.node_pools
   node_subnets            = local.node_subnets
- # ingress_gateway_id      = azurerm_application_gateway.appgw.id
 
   tags                    = var.tags
   
