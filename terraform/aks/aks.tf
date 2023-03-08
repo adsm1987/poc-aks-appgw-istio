@@ -5,7 +5,6 @@ locals {
 }
 
 module "aks" {
-  #source                   = "git@github.com:deeproute/terraform-modules-azure//aks?ref=master"
   source = "../../../terraform-modules-azure/containers/aks/"
 
   region                  = var.region
