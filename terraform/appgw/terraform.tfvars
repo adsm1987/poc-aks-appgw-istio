@@ -2,7 +2,7 @@ region              = "eastus2"
 resource_group_name = "playground-aks-gw-istio"
 
 tags = {
-  Owner = "deeproute"
+  Owner = "adsm1987"
 }
 
 name                      = "appgw-aks-istio"
